@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.jumbotron {
+    text-align: center;
+    background-image: url('restaurant-background.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.colortxtbuy {
+    color: #222222;
+}
+
+.colorsend {
+    color: #E53935;
+}
+
+.colorsttxt {
+    color: white;
+}
+
+.colortxt {
+    color: white;
+}
+
+.gp {
+    display: flex;
+}
+
+.map {
+    margin: 10px;
+}
+
+.carousel-item img {
+    max-height: 565px;
+}
+
+.carousel {
+    width: 100%;
+    max-width: 100%;
+}
+
+.nwcolor {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+}

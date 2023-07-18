@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style-vasya.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Restaurant</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#locate">Locate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#booking">Book a table</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://cdn.pixabay.com/photo/2016/11/18/22/21/restaurant-1837150_640.jpg" class="d-block w-100"
+          alt="First slide">
+
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2016/11/21/16/02/outdoor-dining-1846137_640.jpg" class="d-block w-100"
+          alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2017/01/24/03/54/urban-2004494_640.jpg" class="d-block w-100"
+          alt="Third slide">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section id="home" class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 id="home" class="display-4">Welcome to Our Restaurant</h1>
+      <p class="lead">Delicious food and cozy atmosphere</p>
+    </div>
+  </section>
+
+  <section id="menu" class="container">
+    <h2 id="menu" class="text-center mb-4">Our Menu</h2>
+    <div class="row">
+      <div class="col-md-3 menu-item">
+        <img src="https://cdn.pixabay.com/photo/2017/01/03/11/33/pizza-1949183_640.jpg" alt="Dish 1">
+        <h3>Pizza</h3>
+        <p>The main ingredients of a pizza typically include tomato sauce, cheese (usually mozzarella), meat (such as
+          ham, salami, or chicken), seafood (such as shrimp or mussels), vegetables (like mushrooms, bell peppers,
+          onions, olives), and other toppings that can vary based on the region and personal preferences.</p>
+        <p>Price: $20</p>
+      </div>
+      <div class="col-md-3 menu-item">
+        <img src="https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467_640.jpg" alt="Dish 2">
+        <h3>Greek salad</h3>
+        <p> It typically consists of fresh vegetables such as tomatoes, cucumbers, onions, and bell peppers, mixed with
+          Kalamata olives and feta cheese. The salad is often seasoned with dried oregano, salt, and pepper, and dressed
+          with extra virgin olive oil and lemon juice.</p>
+        <p>Price: $14</p>
+      </div>
+      <div class="col-md-3 menu-item">
+        <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_640.jpg" alt="Dish 3">
+        <h3>Burger</h3>
+        <p> A burger is a popular dish consisting of a meat patty (often beef or chicken) served in a bun. Burgers can
+          have various toppings such as lettuce, tomatoes, onions, cheese, pickles, and condiments like ketchup or
+          mayonnai</p>
+        <p>Price: $16</p>
+      </div>
+      <div class="col-md-3 menu-item">
+        <img src="https://cdn.pixabay.com/photo/2014/10/29/19/26/french-fries-508292_640.jpg" alt="Dish 4">
+        <h3>French fries</h3>
+        <p>French fries are made from fresh potatoes that are sliced into thin, fried sticks. Typically, standard white
+          potatoes are used for making French fries. However, some restaurants may use specific potato varieties to
+          achieve desired texture and taste.</p>
+        <p>Price: $6</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 menu-item">
+        <img src="https://cdn.pixabay.com/photo/2016/01/22/02/13/meat-1155132_640.jpg" alt="Dish 5">
+        <h3>Steak</h3>
+        <p>A steak is a piece of meat that is typically cooked by frying, grilling, or broiling. It can be made from
+          various types of meat, such as beef, pork, lamb, or chicken.</p>
+        <p>Price: $40</p>
+      </div>
+      <div class="col-md-3 menu-item">
+        <img
+          src="https://media.istockphoto.com/id/474422232/photo/corn-dog-with-mustard-and-ketchup.webp?b=1&s=612x612&w=0&k=20&c=CJA7r7EMkpa8oZyMLCJNu5tBFRTfIXfEhtjDr4mk7CY="
+          alt="Dish 6">
+        <h3>Corn dog</h3>
+        <p>A corn dog is made from a hot dog or sausage that is coated in a cornmeal batter and deep-fried. The hot dog
+          or sausage is typically made from pork, beef, or a combination of meats. The cornmeal batter is made from a
+          mixture of cornmeal, flour, eggs, milk, and seasonings.</p>
+        <p>Price: $12</p>
+      </div>
+      <div class="col-md-3 menu-item">
+        <img src="https://cdn.pixabay.com/photo/2015/12/09/17/12/popcorn-1085072_640.jpg" alt="Dish 7">
+        <h3>Popcorn</h3>
+        <p>Popcorn is made from corn kernels. These are natural corn grains that are heated, causing them to pop and
+          turn into fluffy popcorn.</p>
+        <p>Price: $8</p>
+      </div>
+      <div class="col-md-3 menu-item">
+        <img
+          src="https://media.istockphoto.com/id/1457130362/photo/fresh-hot-dog-on-wooden-background.jpg?b=1&s=170667a&w=0&k=20&c=xZLU56dLhN4HH4vayca-z7rwpx-buZlOgYhqzi9VdiA="
+          alt="Dish 8">
+        <h3>Hot dog</h3>
+        <p>A hot dog is a popular snack consisting of a sausage placed in a long, soft bun. The sausage used is
+          typically made from pork or beef. Hot dogs are often garnished with mustard, ketchup, onions, sauerkraut, and
+          other condiments.</p>
+        <p>Price: $5</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 menu-item">
+        <img src="https://cdn.pixabay.com/photo/2010/12/01/chips-643_640.jpg" alt="Dish 9">
+        <h3>Chips</h3>
+        <p>Chips, also known as potato chips or crisps, are a popular snack made from thinly sliced potatoes that are
+          typically deep-fried until crispy. They are often seasoned with salt or various flavors such as barbecue, sour
+          cream and onion, cheese, or other seasonings.</p>
+        <p>Price: $4</p>
+      </div>
+      <div class="col-md-6 menu-item">
+        <img src="https://cdn.pixabay.com/photo/2010/12/10/08/chicken-nuggets-1108_640.jpg" alt="Dish 10">
+        <h3>Nuggets</h3>
+        <p>Chicken nuggets are a popular snack made from small pieces of chicken that are breaded and fried or baked
+          until crispy. They are typically seasoned with various spices and herbs for added flavor.</p>
+        <p>Price: $8</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="map" class="map">
+    <div class="container">
+      <div class="row">
+        <div id="locate" class="col-md-12 text-center">
+          <h2>We are on the map</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15340.974049811255!2d18.416658434458075!3d47.17887180184227!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4769f7a81ff5a617%3A0x98687b1248dfd1c6!2zQnVyZ2VyIEtpbmcgU3rDqWtlc2ZlaMOpcnbDoXI!5e0!3m2!1sru!2sua!4v1689106015652!5m2!1sru!2sua"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 id="booking" class="colortxtbuy">Book a table</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="name" class="colortxtbuy">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email" class="colortxtbuy">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="message" class="colortxtbuy">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary colortxtbuy pp">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="marginow">
+  </div>
+  <footer class="footer">
+    <div class="container text-center">
+      <span>&copy; 2023 Restaurant. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
